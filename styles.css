@@ -1,4 +1,21 @@
+.button-container {
+    display: flex;
+}
 .grid-numbers {
     display: grid;
     gap: 0.5rem;
+    flex: 1;
+}
+
+.grid-operators {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr); */
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.btn-operator {
+    flex: 1 1 auto;
 }
